@@ -1,0 +1,150 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: silver;
+}
+
+header{
+  background-color: white;
+  height: 70;
+}
+.text{
+  display: inline-block;
+  font-size: 30px;
+}
+.imageb{
+  display: inline-block;
+  padding: 10px 20px 0;
+}
+.container{
+  background-color: white;
+  border-radius: 12px;
+  width: 80%;
+  margin: 40px auto;
+  padding-bottom: 50px;
+}
+
+button{
+ height: 30px;
+ border-radius: 12px;
+}
+
+.task{
+  background-color: #5CC0E0;
+  color: white;
+  border: none;
+}
+
+ul{
+  list-style: none;
+}
+
+.lista{
+  margin-top: 40px;
+}
+
+h2{
+  color: black;
+  font-size: 20px;
+}
+
+
+h2::before{
+  content: '\25bc';
+  font-size: 15px;
+  color: black;
+
+}
+.check::before{
+  content: ' \2713';
+  color: green;
+  border-radius: 50%;
+  border: 2px solid green;
+  padding: 2px;
+}
+
+.editorial{
+  background-color: lightblue;
+}
+.q1goals{
+  background-color: violet;
+}
+.recruiting{
+  background-color: lightblue;
+}
+.mobile{
+  background-color: yellow;
+}
+.website{
+  background-color: red;
+}
+.sales{
+  background-color: green;
+}
+h4{
+  margin-left: 10px;
+  display: inline-block;
+  color: black;
+  font-size: 15px;
+}
+.objeto{
+  padding-left: 0px;
+}
+
+.check,.no{
+  margin-top: 10px;
+}
+.no::before{
+  content: ' \2715';
+  color: red;
+  border-radius: 50%;
+  border: 2px solid red;
+  padding: 2px;
+}
+.lista,.editorial{
+  color: white;
+  display: inline-block;
+  padding: 6px 12px;
+  border-radius: 12px;
+  font-size: 12px;
+}
+
+.lista,.q1goals{
+  color: white;
+  display: inline-block;
+  padding: 6px 12px;
+  border-radius: 12px;
+  font-size: 12px;
+}
+
+.lista,.recruiting{
+  color: white;
+  display: inline-block;
+  padding: 6px 12px;
+  border-radius: 12px;
+  font-size: 12px;
+}
+.lista,.mobile{
+  color: white;
+  display: inline-block;
+  padding: 6px 12px;
+  border-radius: 12px;
+  font-size: 12px;
+}
+.lista,.sales{
+  color: white;
+  display: inline-block;
+  padding: 6px 12px;
+  border-radius: 12px;
+  font-size: 12px;
+}
+.lista,.website{
+  color: white;
+  display: inline-block;
+  padding: 6px 12px;
+  border-radius: 12px;
+  font-size: 12px;
+}
